@@ -1,0 +1,54 @@
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.column{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.item{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 3vw;
+    margin-top: 4vh;
+    width: 14vw;
+    height: 14vw;
+    border: 0.1vw solid black;
+}
+.item h1{
+    position: absolute;
+    top: 0;
+    font-size: 12px;
+}
+a.transparent-button {
+    position: absolute;
+    width: 6vw;
+    left: 4vw;
+    top: 10vw;
+    /*display: inline-block;*/
+    color: black;
+    text-decoration: none;
+    outline: none;
+    border: 0.1vw solid;
+    border-radius: 1px;
+    transition: 0.2s;
+    font-size: 1vw;
+}
+a.transparent-button:hover { background: rgba(1,255,255,.2); }
+a.transparent-button:active { background: white; }
+
+
+.item img {
+    margin-bottom: 5vh;
+    transition: 0.4s; /* Время эффекта */
+    width: 100%;
+
+}
+.item img:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+}
+

@@ -1,0 +1,37 @@
+.calculator{
+    margin-top: 8vh;
+    padding: 10vh 20vh 10vh 20vh;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+.calculator-wrap{
+    color: white;
+    background-color: black;
+    margin: 0 6vw 0 6vw;
+}
+
+.square-text{
+    margin-top: 0;
+}
+.square-input{
+    margin: 5vh 8vw 0 8vw;
+}
+.status{
+    margin-top: 8vw;
+}
+.select-calc{
+    display: flex;
+    justify-content: space-between;
+    margin: 5vh 8vw 0 8vw;
+}
+.price{
+    margin-top: 8vw;
+    font-size: 5vh;
+    color: honeydew;
+}
+.active{
+    color: yellow;
+}
+
+
