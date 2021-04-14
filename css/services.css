@@ -1,4 +1,5 @@
 .services{
+    background-color: red;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -21,8 +22,10 @@
 }
 .item h1{
     position: absolute;
-    top: 0;
-    font-size: 12px;
+    top: 2vw;
+    font-size: 1.2VW;
+    width: 100%;
+
 }
 a.transparent-button {
     position: absolute;
@@ -34,11 +37,11 @@ a.transparent-button {
     text-decoration: none;
     outline: none;
     border: 0.1vw solid;
-    border-radius: 1px;
+    border-radius: 3vw;
     transition: 0.2s;
     font-size: 1vw;
 }
-a.transparent-button:hover { background: rgba(1,255,255,.2); }
+a.transparent-button:hover { background: rgba(255,255,255,.2); }
 a.transparent-button:active { background: white; }
 
 
@@ -51,4 +54,31 @@ a.transparent-button:active { background: white; }
 .item img:hover {
     transform: scale(1.2); /* Увеличиваем масштаб */
 }
-
+@media (max-width: 900px) {
+    .column{
+        flex-direction: column;
+    }
+    .item{
+        margin: 5vw auto;
+        width: 400px;
+        height: 400px;
+    }
+    .item h1{
+        position: absolute;
+        top: 70px;
+        font-size: 30px;
+    }
+    a.transparent-button {
+        top: 300px;
+        left: 130px;
+        width: 150px;
+        height: 50px;
+        margin: 0 auto;
+        /*display: inline-block;*/
+        color: black;
+        text-decoration: none;
+        outline: none;
+        border: 0.1vw solid;
+        font-size: 35px;
+    }
+}

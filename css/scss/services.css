@@ -1,0 +1,86 @@
+.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.services .column {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.services .item {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 3vw;
+  margin-top: 4vh;
+  width: 14vw;
+  height: 14vw;
+  border: 0.1vw solid black;
+}
+.services .item h1 {
+  position: absolute;
+  top: 2vw;
+  font-size: 1.2VW;
+  width: 100%;
+}
+.services .item a {
+  position: absolute;
+  width: 6vw;
+  left: 4vw;
+  top: 10vw;
+  /*display: inline-block;*/
+  color: black;
+  text-decoration: none;
+  outline: none;
+  border: 0.1vw solid;
+  border-radius: 20px;
+  transition: 0.2s;
+  font-size: 1vw;
+}
+.services .item a:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+.services .item a:active {
+  background: black;
+}
+.services .item img {
+  margin-bottom: 5vh;
+  transition: 0.4s;
+  width: 100%;
+}
+.services .item img:hover {
+  transform: scale(1.2);
+}
+
+@media (max-width: 800px) {
+  .column{
+    background-color: red;
+    flex-direction: column;
+  }
+  .item{
+    margin: 5vw auto;
+    width: 400px;
+    height: 400px;
+  }
+  .item h1{
+    position: absolute;
+    top: 70px;
+    font-size: 30px;
+  }
+  a.transparent-button {
+    top: 300px;
+    left: 130px;
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+    /*display: inline-block;*/
+    color: black;
+    text-decoration: none;
+    outline: none;
+    border: 0.1vw solid;
+    font-size: 35px;
+  }
+}
+
+/*# sourceMappingURL=services.css.map */

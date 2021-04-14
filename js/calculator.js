@@ -2,21 +2,19 @@ const squareInput = document.querySelector('.square-input'),
     resultText = document.querySelector('.price');
 let status;
 
-function calcResult(){
-    if(status === 'simple'){
+function calcResult() {
+    if (status === 'simple') {
         resultText.textContent = 1.5 * squareInput.value;
-    }else{
+    } else {
         resultText.textContent = 2 * squareInput.value;
     }
 }
 
-function getStaticData(parentSelector, calcActive){
-    document.querySelector(parentSelector).addEventListener('click', event =>{
+function getStaticData(parentSelector, calcActive) {
+    document.querySelector(parentSelector).addEventListener('click', event => {
         status = event.target.getAttribute('id');
-
-
         const elements = document.querySelectorAll('.type')
-        elements.forEach(elem=>{
+        elements.forEach(elem => {
             elem.classList.remove(calcActive)
         })
         event.target.classList.add(calcActive)
@@ -26,8 +24,5 @@ function getStaticData(parentSelector, calcActive){
 }
 
 
-
 getStaticData('.select-calc', 'active')
-
-
 
