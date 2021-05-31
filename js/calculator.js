@@ -10,7 +10,7 @@ function calcResult() {
     }
 }
 
-function getStaticData(parentSelector, calcActive) {
+function getData(parentSelector, calcActive) {
     document.querySelector(parentSelector).addEventListener('click', event => {
         status = event.target.getAttribute('id');
         const elements = document.querySelectorAll('.type')
@@ -24,5 +24,5 @@ function getStaticData(parentSelector, calcActive) {
 }
 
 
-getStaticData('.select-calc', 'active')
+getData('.select-calc', 'active')
 

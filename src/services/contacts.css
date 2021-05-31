@@ -1,0 +1,101 @@
+*, *:before, *:after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  background-image: url("../../img/svetlyj-kirpich.webp");
+}
+
+header .menu {
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 10vh;
+}
+header .menu li {
+  list-style: none;
+}
+header .menu a {
+  text-decoration: none;
+}
+header .menu .menu-list {
+  font-size: 1vw;
+  display: flex;
+  float: right;
+  padding-right: 10vh;
+  padding-top: 4vh;
+}
+header .menu .menu-list > li {
+  margin: 0 1.3vw 0 0;
+}
+header .menu .menu-list .drop:hover .sub-menu-list {
+  display: block;
+}
+header .menu .menu-list .drop .menu-link {
+  color: white;
+}
+header .menu .menu-list .drop .sub-menu-list {
+  z-index: 99;
+  position: absolute;
+  top: 60px;
+  display: none;
+  padding: 10px 0 0 0;
+}
+header .menu .menu-list .drop .sub-menu-list > li {
+  background-color: rgba(10, 10, 11, 0.3);
+  border-radius: 35px;
+  width: 150px;
+}
+header .menu .menu-list .drop .sub-menu-list > li .hover:hover {
+  color: darkseagreen;
+}
+header .menu .menu-list .drop .sub-menu-list .sub-menu-link {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 1em beige;
+}
+header .menu .menu-list .hover:hover {
+  color: darkseagreen;
+}
+
+.wrap {
+  display: flex;
+  margin: 0 15vw 10px 15vw;
+}
+.wrap .contacts {
+  margin: 22px;
+  width: 33vw;
+  height: 33vw;
+}
+.wrap .contacts p {
+  text-align: center;
+  font-size: 40px;
+  margin: 30px;
+}
+.wrap .contacts div {
+  font-size: 30px;
+  margin: 20px;
+  padding-left: 100px;
+}
+.wrap .contacts img {
+  padding-left: 100px;
+}
+.wrap .contacts div.text {
+  text-align: center;
+  padding-left: 10px;
+}
+.wrap .map {
+  padding: 30px 0;
+  margin: 22px;
+  width: 33vw;
+  height: 33vw;
+}
+.wrap .map p {
+  text-align: center;
+  font-size: 40px;
+  margin: 0 0 20px 0;
+}
+
+/*# sourceMappingURL=contacts.css.map */

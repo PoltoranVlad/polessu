@@ -3,56 +3,62 @@
 <head>
     <title>LA</title>
 
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="style/index.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Oswald|Roboto&display=swap"
-          rel="stylesheet">
+
     <meta charset="UTF-8">
     <!-- Адаптив -->
     <meta name="viewport" content="width=device-width">
 </head>
 
 <body>
-
-<header class="header-main wrap">
-    <a class="landarch">
-        L͟͟͟͞͞͞a͟͟͟͞͞͞n͟͟͟͞͞͞d͟͟͟͞͞͞ A͟͟͟͞͞͞r͟͟͟͞͞͞c͟͟͟͞͞͞h͟͟͟͞͞͞
-    </a>
-    <nav class="menu">
-        <ul class="menu-list">
-            <li class="drop first-li">
-                <a href="#" class="menu-link">Главная</a>
-            </li>
-            <li class="drop">
-                <a href="src/services/service.html" class="menu-link">Услуги</a>
-            </li>
-            <li class="drop">
-                <a href="#" class="menu-link">Наши работы</a>
-                <ul class="sub-menu-list">
-                    <li>
-                        <a href="#" class="sub-menu-link">НЕ Услуги</a>
-                    </li>
-                    <li>
-                        <a href="#" class="sub-menu-link">Услуги</a>
-                    </li>
-                </ul>
-            </li>
-            <li class="drop">
-                <a href="#" class="menu-link">Стоимость</a>
-                <ul class="sub-menu-list">
-                    <li>
-                        <a href="#" class="sub-menu-link">Услуги</a>
-                    </li>
-                    <li>
-                        <a href="#" class="sub-menu-link">Услуги</a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    </nav>
+<header id="header">
+    <div class="pic" style="background-image: url('img/landshaft_13.jpg')">
+        <nav class="menu">
+            <ul id="menu-list" class="menu-list">
+                <li class="drop first-li">
+                    <a href="#" class="menu-link hover">Главная</a>
+                </li>
+                <li class="drop">
+                    <a href="src/services/land1.html" class="menu-link hover">Услуги</a>
+                </li>
+                <li class="drop">
+                    <a href="#" class="menu-link hover">О нас</a>
+                    <ul class="sub-menu-list">
+                        <li>
+                            <a href="src/services/contacts.html" class="sub-menu-link hover">Контакты</a>
+                        </li>
+                        <li>
+                            <a href="#" class="sub-menu-link hover">Наши работы</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="drop">
+                    <a href="#" class="menu-link hover">Стоимость</a>
+                    <ul class="sub-menu-list">
+                        <li>
+                            <a href="src/price/calc.html" class="sub-menu-link hover">Расчитать</a>
+                        </li>
+                        <li>
+                            <a href="src/price/prices.html" class="sub-menu-link hover">Расценки</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div id="land" class="landarch">
+                Ландшафтное проектирование
+                <p style="text-align: center; color: aliceblue">
+                    Land Arch
+                </p>
+            </div>
+        </nav>
+    </div>
 </header>
 
 <div id="bod">
+    <div class="our-services">
+        Последние работы
+    </div>
     <div class="wrapper-slider body">
         <div class="slider">
             <div class="slider__item filter">
@@ -79,91 +85,79 @@
             <div class="column" id="col">
                 <div class="item item">
                     <div class="inside-item">
-                        <img src="img/1.jpg" alt="">
+                        <img src="img/serv/firma-kyiv-home-vypolniaet-raboty-po-blagoustroistvu.png" alt="">
                         <h1>Ландшафтный дизайн</h1>
-                        <a href="#" class="transparent-button">кнопка</a>
+                        <a href="#" class="transparent-button">Подробнее</a>
                     </div>
                 </div>
                 <div class="item">
                     <div class="inside-item">
-                        <img src="img/1.jpg" alt="">
+                        <img src="img/serv/zimniy-sad-v-chastnom-dome-610x460.jpg" alt="">
                         <h1>Зимний сад</h1>
-                        <a href="#" class="transparent-button">кнопка</a>
+                        <a href="#" class="transparent-button">Подробнее</a>
                     </div>
                 </div>
                 <div class="item">
                     <div class="inside-item">
-                        <img src="img/1.jpg" alt="">
+                        <img src="img/serv/5.jpg" alt="">
                         <h1>Настенная живопись</h1>
-                        <a href="#" class="transparent-button">кнопка</a>
+                        <a href="#" class="transparent-button">Подробнее</a>
                     </div>
                 </div>
                 <div class="item">
                     <div class="inside-item">
-                        <img src="img/1.jpg" alt="">
-                        <h1>Ландшафтное овещение</h1>
-                        <a href="#" class="transparent-button">кнопка</a>
+                        <img src="img/serv/unnamed.jpg" alt="">
+                        <h1>Ландшафтное освещение</h1>
+                        <a href="#" class="transparent-button">Подробнее</a>
                     </div>
                 </div>
             </div>
             <div class="column" id="col1">
                 <div class="item">
                     <div class="inside-item">
-                        <img src="img/1.jpg" alt="">
+                        <img src="img/serv/8-klumba-svoimi-rukami.jpg" alt="">
                         <h1>Флористика</h1>
-                        <a href="#" class="transparent-button">кнопка</a>
+                        <a href="#" class="transparent-button">Подробнее</a>
                     </div>
                 </div>
                 <div class="item">
                     <div class="inside-item">
-                        <img src="img/1.jpg" alt="">
+                        <img src="img/serv/unnamed%20(1).jpg" alt="">
                         <h1>Топиарная стрижка</h1>
-                        <a href="#" class="transparent-button">кнопка</a>
+                        <a href="#" class="transparent-button">Подробнее</a>
                     </div>
                 </div>
                 <div class="item">
                     <div class="inside-item">
-                        <img src="img/1.jpg" alt="">
+                        <img src="img/serv/unnamed%20(2).jpg" alt="">
                         <h1>Посадка древесно-кустарниковой растительности</h1>
-                        <a href="#" class="transparent-button">кнопка</a>
+                        <a href="#" class="transparent-button">Подробнее</a>
                     </div>
                 </div>
                 <div class="item">
                     <div class="inside-item">
-                        <img src="img/1.jpg" alt="">
+                        <img src="img/serv/987814.jpg" alt="">
                         <h1>Цветники</h1>
-                        <a href="#" class="transparent-button">кнопка</a>
+                        <a href="#" class="transparent-button">Подробнее</a>
                     </div>
                 </div>
             </div>
             <div class="column" id="col2">
                 <div class="item">
                     <div class="inside-item">
-                        <img src="img/1.jpg" alt="">
+                        <img src="img/serv/gazon1.jpg" alt="">
                         <h1>Газон</h1>
-                        <a href="#" class="transparent-button">кнопка</a>
+                        <a href="#" class="transparent-button">Подробнее</a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="calculator-wrap wrap">
-            <div class="calculator">
-                <div class="square-text">Размер участка:</div>
-                <input class="square-input" type="number" placeholder="Введите размер участка" value="12">
-                <div class="status">Выберите оформление</div>
-                <div class="select-calc">
-                    <div id="simple" class="type">default</div>
-                    <div id="lux" class="type">lux</div>
-                </div>
-                <div class="price">0$</div>
-            </div>
-        </div>
+
     </div>
 </div>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="js/slick.min.js"></script>
 <script src="js/script.js"></script>
-<script src="js/calculator.js"></script>
 </body>
 </html>
 

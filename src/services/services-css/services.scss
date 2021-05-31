@@ -1,15 +1,76 @@
-@import "../../../css/scss/header";
-@import "services-body";
+@import "../../../style/scss/header";
+
 *, *:before, *:after {
+  list-style-type: none;
+  text-decoration: none;
   padding: 0;
   margin: 0;
   border: 0;
   box-sizing: border-box;
 }
+
 body, html {
-  height: 100%;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  .wrap{
+  height: auto;
+  .wrap {
     padding: 0 20%;
   }
 }
+
+@media (max-width: 900px) {
+  .wrap {
+    padding: 0;
+    .first-li {
+      display: none;
+    }
+  }
+  .services-list {
+    display: none;
+  }
+}
+
+.body {
+  background: url("../../../img/svetlyj-kirpich.webp");
+  height: 100%;
+  display: flex;
+  padding: 0 10vw;
+
+  .main {
+    margin-left: 10vw;
+    width: 100%;
+    height: 100%;
+    padding-right: 20%;
+
+    .wrap {
+      height: 100%;
+    }
+  }
+
+  .services-menu {
+    font-size: 2.2vh;
+    padding: 0.5vh 0 1px 1.5vh;
+  }
+
+  .wrapper {
+    font-size: 22px;
+
+    p {
+      color: #333333;
+      font-size: 40px;
+      text-align: center;
+      padding: 40px 0 0 40px;
+    }
+
+    .text {
+      padding: 20px 0 30px 20px;
+    }
+    .last{
+      min-height: 30vh;
+      padding-bottom: 30px;
+    }
+  }
+}
+
+
+
+

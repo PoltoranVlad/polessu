@@ -1,0 +1,86 @@
+@import "../../style/scss/calculator";
+
+*, *:before, *:after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  background-image: url('../../img/svetlyj-kirpich.webp');
+}
+
+header {
+
+  .menu {
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 10vh;
+
+    & li {
+      list-style: none;
+    }
+
+    & a {
+      text-decoration: none;
+    }
+
+    .menu-list {
+      font-size: 1vw;
+      display: flex;
+      float: right;
+      padding-right: 10vh;
+      padding-top: 4vh;
+
+      & > li {
+        margin: 0 1.3vw 0 0;
+      }
+
+      .drop {
+        &:hover .sub-menu-list {
+          display: block;
+        }
+
+        .menu-link {
+          color: white;
+        }
+
+        .sub-menu-list {
+          z-index: 99;
+          position: absolute;
+          top: 60px;
+          display: none;
+          padding: 10px 0 0 0;
+
+          & > li {
+            background-color: rgba(10, 10, 11, 0.3);
+            border-radius: 35px;
+            width: 150px;
+
+            .hover:hover {
+              color: darkseagreen;
+
+            }
+          }
+
+          .sub-menu-link {
+            color: white;
+            text-shadow: 1px 1px 2px black, 0 0 1em beige;
+          }
+        }
+      }
+
+      .hover:hover {
+        color: darkseagreen;
+      }
+    }
+  }
+}
+
+.calc-disc {
+  margin: 85px 0;
+  font-size: 45px;
+  text-align: center;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+<header>
+    <nav class="menu">
+        <ul class="menu-list">
+            <li class="drop first-li">
+                <a href="../../index.html" class="menu-link hover">Главная</a>
+            </li>
+            <li class="drop">
+                <a href="../services/land1.html" class="menu-link hover">Услуги</a>
+            </li>
+            <li class="drop">
+                <a href="#" class="menu-link hover">О нас</a>
+                <ul class="sub-menu-list">
+                    <li>
+                        <a href="../services/contacts.html" class="sub-menu-link hover">Контакты</a>
+                    </li>
+                    <li>
+                        <a href="#" class="sub-menu-link hover">Наши работы</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="drop">
+                <a href="#" class="menu-link hover">Стоимость</a>
+                <ul class="sub-menu-list">
+                    <li>
+                        <a href="../price/calc.html" class="sub-menu-link hover">Расчитать</a>
+                    </li>
+                    <li>
+                        <a href="../price/prices.html" class="sub-menu-link hover">Расценки</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+<div class="calc-disc">
+    Здесь вы можете
+    расчитать примерную стоимость работ
+
+</div>
+<div class="calculator-wrap wrap">
+    <div class="calculator">
+        <div class="square-text">Укажите размер вашего участка:</div>
+        <input class="square-input" type="number" placeholder="Введите размер участка" value="0">
+        <div class="status">Выберите услугу:</div>
+        <select class="select-calc" name="calc" id="calc">
+            <option value="1.4">Ландшафтное проектирование</option>
+            <option value="1.4">Зимний сад</option>
+            <option value="1.4">Настенная живопись</option>
+            <option value="1.4">Освещение</option>
+            <option value="1.4">Флористика</option>
+            <option value="1.4">Топиарная стрижка</option>
+            <option value="1.4">Посадка деревьев</option>
+            <option value="1.4">Цветники</option>
+            <option value="1.4">Газон</option>
+        </select>
+        <div class="price">0$</div>
+    </div>
+    <script src="../../js/calculator.js"></script>
+</div>
+</body>
+</html>

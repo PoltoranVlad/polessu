@@ -1,75 +1,93 @@
-.header-main {
-  width: 100%;
-  background-color: #333333;
-  min-height: 80px;
-  display: flex;
-  font-size: 18px;
-  justify-content: space-between;
-  color: white;
+header .pic {
+  border-bottom: 3px solid whitesmoke;
+  padding-top: 5vh;
+  min-width: 90vw;
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.header-main a {
-  text-underline: none;
-  text-decoration: none;
+header .pic .landarch {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 40vh;
+  left: 35vw;
+  border-radius: 30px;
+  background-color: rgba(10, 10, 11, 0.3);
+  color: whitesmoke;
+  font-size: 4vh;
 }
-.header-main .landarch {
-  margin: auto 0;
+header .pic .landarch p {
+  color: whitesmoke;
 }
-.header-main .menu {
-  margin: auto 0;
+header .pic .menu {
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 10vh;
 }
-.header-main .menu li {
+header .pic .menu li {
   list-style: none;
 }
-.header-main .menu .menu-list {
-  display: flex;
+header .pic .menu a {
+  text-decoration: none;
 }
-.header-main .menu .menu-list > li {
+header .pic .menu .menu-list {
+  font-size: 1vw;
+  display: flex;
+  float: right;
+  padding-right: 10vh;
+  padding-top: 4vh;
+}
+header .pic .menu .menu-list > li {
   margin: 0 1.3vw 0 0;
 }
-.header-main .menu .menu-list .drop:hover .sub-menu-list {
+header .pic .menu .menu-list .drop:hover .sub-menu-list {
   display: block;
 }
-.header-main .menu .menu-list .drop .menu-link {
+header .pic .menu .menu-list .drop .menu-link {
   color: white;
 }
-.header-main .menu .menu-list .drop .sub-menu-list {
+header .pic .menu .menu-list .drop .sub-menu-list {
   z-index: 99;
   position: absolute;
-  top: 50px;
+  top: 100px;
   display: none;
   padding: 10px 0 0 0;
 }
-.header-main .menu .menu-list .drop .sub-menu-list > li {
-  background-color: white;
+header .pic .menu .menu-list .drop .sub-menu-list > li {
+  background-color: rgba(10, 10, 11, 0.3);
+  border-radius: 35px;
   width: 200px;
 }
-.header-main .menu .menu-list .drop .sub-menu-list .sub-menu-link {
-  background-color: white;
+header .pic .menu .menu-list .drop .sub-menu-list > li .hover:hover {
+  color: darkseagreen;
+}
+header .pic .menu .menu-list .drop .sub-menu-list .sub-menu-link {
+  color: whitesmoke;
+  text-shadow: 1px 1px 2px black, 0 0 1em gainsboro;
+}
+header .pic .menu .menu-list .hover:hover {
+  color: darkseagreen;
 }
 
-.body {
-  background: url("../../../img/leaves.png");
-  height: 100%;
-  display: flex;
-}
-.body .services-list {
-  background-color: red;
-  height: 100%;
-  width: 20%;
-}
-.body .main {
-  width: 100%;
-  height: 100%;
-  background-color: beige;
-  padding-right: 20%;
-}
-.body .main .test {
-  width: 100%;
-  height: 100%;
-  background-color: green;
-}
+@media (max-width: 900px) {
+  #header {
+    height: 500px;
+  }
 
+  #menu-list {
+    font-size: 16px;
+  }
+
+  #land {
+    top: 30vh;
+    left: 0;
+    font-size: 28px;
+  }
+}
 *, *:before, *:after {
+  list-style-type: none;
+  text-decoration: none;
   padding: 0;
   margin: 0;
   border: 0;
@@ -77,11 +95,59 @@
 }
 
 body, html {
-  height: 100%;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  height: auto;
 }
 body .wrap, html .wrap {
   padding: 0 20%;
+}
+
+@media (max-width: 900px) {
+  .wrap {
+    padding: 0;
+  }
+  .wrap .first-li {
+    display: none;
+  }
+
+  .services-list {
+    display: none;
+  }
+}
+.body {
+  background: url("../../../img/svetlyj-kirpich.webp");
+  height: 100%;
+  display: flex;
+  padding: 0 10vw;
+}
+.body .main {
+  margin-left: 10vw;
+  width: 100%;
+  height: 100%;
+  padding-right: 20%;
+}
+.body .main .wrap {
+  height: 100%;
+}
+.body .services-menu {
+  font-size: 2.2vh;
+  padding: 0.5vh 0 1px 1.5vh;
+}
+.body .wrapper {
+  font-size: 22px;
+}
+.body .wrapper p {
+  color: #333333;
+  font-size: 40px;
+  text-align: center;
+  padding: 40px 0 0 40px;
+}
+.body .wrapper .text {
+  padding: 20px 0 30px 20px;
+}
+.body .wrapper .last {
+  min-height: 30vh;
+  padding-bottom: 30px;
 }
 
 /*# sourceMappingURL=services.css.map */
