@@ -2,35 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2257cf4-fd07-4ee3-a096-7f4e928f0560" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/services/land1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/scss/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/scss/calculator.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/calculator.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/scss/calculator.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/calculator.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/scss/calculator.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/calculator.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/scss/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/scss/header.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/header.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/scss/header.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/scss/services.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/services.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/scss/services.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/services.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/scss/services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/services.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/scss/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/slider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/scss/slider.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/slider.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/scss/slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/slider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/leaves.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/calculator.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/calculator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/slick.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/slick.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/service.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/services-css/services-body.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/services-css/services-body.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/services-css/services-body.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/services-css/services.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/services-css/services.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/services-css/services.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/services-css/services.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/services-css/services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/services-css/services.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +102,8 @@
       <workItem from="1622391472865" duration="5122000" />
       <workItem from="1622465113590" duration="8869000" />
       <workItem from="1622488607932" duration="602000" />
-      <workItem from="1622489865959" duration="11481000" />
+      <workItem from="1622489865959" duration="12329000" />
+      <workItem from="1623073870211" duration="593000" />
     </task>
     <servers />
   </component>
